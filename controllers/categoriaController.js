@@ -1,6 +1,6 @@
 const Categoria = require("../models/categoria");
 
-//req es lo que podemos leer desde postman
+// req es lo que podemos leer desde postman
 // res el lo que enviamos hacia postman
 
 exports.leerCategoria = async ( req, res ) => {

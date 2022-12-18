@@ -5,10 +5,12 @@ const authRouters = require("./routers/authRouters");
 const categoriaRouters = require("./routers/categoriaRouters");
 const productoRouters = require("./routers/productoRouters");
 const cors = require("cors");
+
 //conectar a la base de datos
 conectarDB();
 
 const app = express();
+
 
 //habilitar los cors
 app.use(cors());
